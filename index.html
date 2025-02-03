@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="./CSS/homecontainer.css" />
+    <link rel="stylesheet" href="./CSS/seo.css">
+    <link rel="stylesheet" href="./CSS/articalcontainer.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <script>
+        function toggleDropdown(id) {
+            // Hide all dropdowns first
+            let dropdowns = document.querySelectorAll('.dropdown-content');
+            dropdowns.forEach(dropdown => {
+                if (dropdown.id !== id) {
+                    dropdown.style.display = 'none';
+                }
+            });
+
+            // Toggle the selected dropdown
+            let selectedDropdown = document.getElementById(id);
+            if (selectedDropdown.style.display === 'block') {
+                selectedDropdown.style.display = 'none';
+            } else {
+                selectedDropdown.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- home component  -->
+
+    <div class="container-fluid">
+
+        <div class="container">
+
+
+            <!-- navbar -->
+
+
+            <div class="py-5">
+                <nav class="navbar  px-3">
+                    <div class="logo">
+                        <img src="logo2.svg">
+                        <!-- <span>SAOR</span> -->
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="#">Home </a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio </a></li>
+                        <li><a href="#">Pages </a></li>
+                        <li><a href="#">Blog </a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-icons">
+                        <button class="search-btn">🔍</button>
+                        <button class="quote-btn">Get A Quote ↗</button>
+                        <button class="menu-toggle">☰</button>
+                    </div>
+                </nav>
+
+                <!-- Mobile Sidebar -->
+                <div class="mobile-menu">
+                    <button class="close-btn">✖</button>
+                    <ul>
+                        <li><a href="#">Home ▼</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio ▼</a></li>
+                        <li><a href="#">Pages ▼</a></li>
+                        <li><a href="#">Blog ▼</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <!-- home section -->
+            <div class="row ">
+                <div class="col-12 col-md-6 mt-4 pt-5">
+
+                    <p>SEO & Marketing Agency</p>
+                    <p class="font-large">Empowering
+                        Growth Unlock
+                        SEO Solutions</p>
+
+
+
+                    <p>At Saor, we are dedicated to helping businesses navigate the complex digital landscape with ease.
+                        We specialize in providing a full spectrum of SEO</p>
+
+                    <button
+                        style="background-color: black; color: white;  padding: 10px 50px; border: none; font-size: 16px;">Get
+                        Started Now</button>
+
+                </div>
+                <div class="col-12 col-md-6  mt-0  ">
+
+
+                    <div class="here-image-hero-container hero-img  p-5">
+                        <!-- <img class="hero-img" src="image/hero_1_1.webp"> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- </div  -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <div class="info-marketing ">
+        <div class="mx-3">
+            <div class="info-marketing-header pt-5">
+
+                <div style="margin-top: 30px; padding-top: 30px;">
+                    <p class="info-sm-text">Welcome to SEO Agency</p>
+                    <p class="info-big-text">Comprehensive SEO & </p>
+                    <p class="info-big-text">DigitalMarketing Solutions.</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div style="max-width: 1200px;" class="row   ">
+
+                <div style="color: rgb(121, 121, 110);" class="col-md-4 mt-5  font-text ">
+                    <p class="pt-2 mb-3">
+                        Our SEO services ensure your website ranks higher on search engines like Google, helping your
+                        business attract more organic traffic. From keyword research and on-page optimization to link
+                        building and technical SEO, we use proven strategies to improve your visibility and authority
+                        online.
+                    </p>
+                    <p class="pt-2">
+                        We believe in making informed decisions. By using analytics and performance
+                    </p>
+
+
+                    <!-- progress-bar -->
+                    <div class="main-progress-conatiner ">
+                        <div class="progress-container">
+                            <div class="progress-label">
+                                <span>SEO Analysis</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill yellow"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-container">
+                            <div class="progress-label">
+                                <span>Marketing Strategy</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill black"></div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn">More About Us →</a>
+
+                    </div>
+                    <!-- Progreesbar end -->
+
+
+                </div>
+                <div class="col-md-8  mt-5">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../image/about_1_1.webp">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="row px-2 py-2">
+                                <div class="col-12">
+
+                                    <div class="row">
+                                        <div style="display: flex; flex-direction: row;">
+                                            <img src="../image/shape-5.webp" alt="loading">
+                                            <div>
+                                                <p>circle div</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <img src="../image/about_1_2.webp" alt="loading">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- reach container -->
+
+
+        <div class="">
+            <div class="d-flex py-5 mt-3  counter-container">
+                <div class="counter-box" data-aos="fade-up">
+                    <h2 id="count1">3K+</h2>
+                    <p>Successful Projects</p>
+                </div>
+                <div class="separator">
+                    <div></div>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="counter-box" data-aos="fade-up">
+                    <h2 id="count2">20K</h2>
+                    <p>Experienced Team</p>
+                </div>
+                <div class="separator">
+                    <div></div>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="counter-box" data-aos="fade-up">
+                    <h2 id="count3">43K+</h2>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="separator">
+                    <div></div>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="counter-box" data-aos="fade-up">
+                    <h2 id="count4">36K+</h2>
+                    <p>Client 5 Star Review</p>
+                </div>
+            </div>
+        </div>
+        <!-- reach container -->
+
+
+
+    </div>
+
+    <!-- scroll tag section roted   container-->
+    <div class="seo-main-container">
+
+        <div class="child-conatiner-sceo ">
+            <div class="scrolling-container">
+                <div class="scrolling-text">
+                    <div class="text-wrapper">
+                        Development <span class="sparkle">✨</span> Search Engine Optimization <span
+                            class="sparkle">✨</span> Research & Analysis <span class="sparkle">✨</span> Monitoring <span
+                            class="sparkle">✨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="seo-service-heading  ">
+
+
+            <div class="mt-5 pt-5">
+                <p style="font-size: 18px; margin: 0px ;" class="font-text mx-3 mb-2 font-text">Our Services</p>
+                <p class="mx-3 font-text" style="font-size: 40px; font-weight: 700; margin: 0px;">
+                    Boost your SEO ranking with</p>
+                <p class="mx-3 font-text" style="font-size: 50px; font-weight: bold;">
+                    excellent effective services</p>
+            </div>
+            <div class="mt-5 pt-5 px-5">
+
+                <div class="circle font-text">
+                    View All work
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+
+    <!-- sceo section start  -->
+
+    <div class="  main-seo-container">
+        <div class="row w-100 mx-3">
+            <!-- Sidebar -->
+            <div class="col-md-6 sidebar">
+                <a onclick="toggleDropdown('seo')">Search Engine Optimization <span>▼</span></a>
+                <div id="seo" class="dropdown-content">
+                    SEO helps improve website visibility on search engines like Google.
+                </div>
+
+                <a onclick="toggleDropdown('ppc')">Pay-Per-Click (PPC) Advertising <span>▼</span></a>
+                <div id="ppc" class="dropdown-content">
+                    PPC allows businesses to bid for ads on search engines and social media.
+                </div>
+
+                <a onclick="toggleDropdown('content')">Content Marketing <span>▼</span></a>
+                <div id="content" class="dropdown-content">
+                    Content marketing focuses on creating valuable content to attract customers.
+                </div>
+
+                <a onclick="toggleDropdown('email')">Email Marketing <span>▼</span></a>
+                <div id="email" class="dropdown-content">
+                    Email marketing helps businesses send promotions and updates to customers.
+                </div>
+
+                <a onclick="toggleDropdown('social')">Social Media Marketing <span>▼</span></a>
+                <div id="social" class="dropdown-content">
+                    Social media marketing boosts brand awareness through social platforms.
+                </div>
+
+                <a onclick="toggleDropdown('conversion')">Conversion Rate Optimization <span>▼</span></a>
+                <div id="conversion" class="dropdown-content">
+                    CRO helps increase the percentage of website visitors who become customers.
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="col-md-6 content">
+                <img src="../image/ser_img_6.webp" alt="Marketing Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- sceo section end  -->
+
+
+    <!-- client main-container-seo-solution -->
+
+
+    <div class="main-container-seo-solution" style="background-color: white;">
+
+
+        <div class="">
+
+            <div class="seo-header-container  mt-5 pt-5 ">
+                <p class="sm-p1">
+                    Our Mission & Vision
+                </p>
+                <p class="sub-p1">Present creative and innovative</p>
+                <p class="sub-p1"> SEO solutions</p>
+            </div>
+
+        </div>
+
+        <div class="mx-3 mt-4">
+
+            <img class="img-fluid " src="../image/project-image (1).webp" alt="loading">
+
+        </div>
+
+    </div>
+    <div>
+
+    </div>
+
+    <div style="background-color: white;">
+
+        <div class="row mx-2 mb-4">
+
+
+            <div class="col-md-6  col-12  ">
+                <div class="seo-card-style mt-5 p-5">
+                    <p class="seo-tag">Our Mission</p>
+
+
+
+                    <p class="seo-head-text">
+                        Customer Success Is Our Mission
+                    </p>
+                    <p class="seo-card-desc">Our mission is to empower businesses by creating digital marketing
+                        strategies that are not only effective but sustainable. We believe in building long-term
+                        relationships with our clients by delivering results that exceed expectations and drive real,
+                        tangible growth.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6  col-12 ">
+                <div class="seo-card-style  mt-5 p-5">
+                    <p class="seo-tag">Our Vision</p>
+
+
+
+                    <p class="seo-head-text">
+                        To be the Leading Agency in the Industry.
+                    </p>
+                    <p class="seo-card-desc">We help you build and maintain a strong social media presence across
+                        platforms like Facebook, Instagram, LinkedIn, and Twitter. By crafting tailored social media
+                        strategies, we engage your audience, foster brand loyalty, and drive conversions.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- lattest article start section -->
+
+    <div class="lattest-article-container">
+
+        <div class="mx-3">
+            <div class="pt-5   mb-4 mt-5">
+                <p style="font-size: 18px;  font-weight: 600px;">News & Blog</p>
+                <p style="font-size: 45px; font-weight: 500;  color: black;">Latest Release News & Articles</p>
+            </div>
+
+            <div class="row row-1">
+
+                <div class="col-12 col-md-6 px-2  ">
+                    <div  class="articatl-inner-container">
+                        <img src="../image/blog-s.webp">
+                        <p>Many of those products offer the</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 px-2">
+                    <div  class="articatl-inner-container">
+                        <img class="" src="../image/blog2.webp">
+                        <p>Grow Your Business, Nurture Your Customers:</p>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 px-2">
+                    <div  class="articatl-inner-container">
+                        <img src="../image/b2.webp">
+
+                        <p>Achieve Top Rankings and Drive Results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- lattest article end section -->
+    <!-- footer start -->
+    <footer class="footer ">
+        <div class="mx-3">
+            <div class="row">
+                <div class="col-md-5  col-6 py-5 text-light">
+                    <h5 class="text-white"><img class="text-light  bg-light" src="./logo2.svg"></h5>
+                    <p class="p-2">Saor, meaning "free" in Gaelic, embodies our dedication to liberating your brand's
+                        potential in the digital realm. Founded in 1995, we boast a rich history.</p>
+                    <div class="footer-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6 py-5" style="color: rgba(245, 245, 245, 0.215);">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 py-5" style="color: rgba(245, 245, 245, 0.215);">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Forum Community</a></li>
+                        <li><a href="#">Business Support</a></li>
+                        <li><a href="#">Payment Gateway</a></li>
+                        <li><a href="#">
+                                Web Development</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6  py-5 " style="color: rgba(245, 245, 245, 0.215);">
+                    <h5>Get In Touch</h5>
+                    <p><i class="bi bi-geo-alt-fill text-warning"></i> 77815 Hartmann Plaza, Idaho, USA</p>
+                    <p><i class="bi bi-telephone-fill text-warning"></i> +13217322978</p>
+                    <p><i class="bi bi-envelope-fill text-warning"></i> saorhelp@gmail.com</p>
+                    <p><i class="bi bi-clock-fill text-warning"></i> 09am - 05pm Mon-Sat</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section>
+        <div class="footer-bottom-last p-3  ">
+            <div class="mx-5"> Copyright &copy; 2025 <span class="text-warning">Saor</span>All Rights Reserved.</div>
+            <div class="mx-5"> <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> </div>
+        </div>
+        <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+            &#8593;
+        </div>
+    </section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>

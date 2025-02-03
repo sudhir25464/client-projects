@@ -1,0 +1,166 @@
+
+/* style here image container */
+
+*{
+    margin: 0px;padding: 0px;
+}
+ .hero-img{
+  
+    z-index: auto;
+    height: 650px;
+    background-image: url('../image/hero_1_1.webp');
+    background-size: 100% 100%;
+ 
+    background-repeat: no-repeat;
+    background-position: absolute;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.font-text{
+    font-family: "Poppins", serif;
+
+font-style: normal
+}
+
+.width-properties{
+    max-width: 1200px;
+}
+.info-marketing{
+
+
+    background-color: #f5f4ee;
+
+font-family: "Poppins", serif;
+
+font-style: normal;
+}
+.info-marketing-header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 3, 3);
+    flex-direction: column;
+    margin: 2px;
+    
+}
+.info-sm-text{
+font-size: 22px;
+font-weight: 600;
+
+}
+.info-big-text{
+
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* progreesbar-style */
+
+.progress-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #f8e3e3 !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.yellow {
+    background-color: #ffcc00;
+    width: 80%;
+}
+
+.black {
+    background-color: black !important;
+    width: 90%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: black !important;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+   
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+}
+
+/* progreesbar-style end*/
+
+
+/* react container */
+
+.counter-container{
+    justify-content: space-between;
+  
+}
+
+@media(max-width:700px) {
+
+    /* Counter boxes adjustments */
+   .counter-container {
+
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+   }
+    
+}
+.counter-box {
+    text-align: center;
+    padding: 20px;
+}
+.counter-box h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.counter-box p {
+    color: gray;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.separator span {
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    border-radius: 50%;
+    margin: 3px;
+}
+.separator div {
+    width: 2px;
+    height: 40px;
+    background: black;
+}
