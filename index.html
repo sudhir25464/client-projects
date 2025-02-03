@@ -37,6 +37,21 @@
                 selectedDropdown.style.display = 'block';
             }
         }
+
+        // navar
+        document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mobileMenu = document.querySelector(".mobile-menu");
+    const closeBtn = document.querySelector(".close-btn");
+
+    menuToggle.addEventListener("click", function () {
+        mobileMenu.style.left = "0";
+    });
+
+    closeBtn.addEventListener("click", function () {
+        mobileMenu.style.left = "-100%";
+    });
+});
     </script>
 </head>
 
@@ -94,9 +109,9 @@
 
             <!-- home section -->
             <div class="row ">
-                <div class="col-12 col-md-6 mt-4 pt-5">
+                <div class="col-12 col-md-6 mt-4 pt-5 home-head-text">
 
-                    <p>SEO & Marketing Agency</p>
+                    <p  style="font-size: 18px; font-weight: 500;"><span   class="bg-warning py-2"> SEO & Market</span>ing Agency</p>
                     <p class="font-large">Empowering
                         Growth Unlock
                         SEO Solutions</p>
@@ -133,7 +148,7 @@
         <div class="mx-3">
             <div class="info-marketing-header pt-5">
 
-                <div style="margin-top: 30px; padding-top: 30px;">
+                <div    style="margin-top: 30px; padding-top: 30px;">
                     <p class="info-sm-text">Welcome to SEO Agency</p>
                     <p class="info-big-text">Comprehensive SEO & </p>
                     <p class="info-big-text">DigitalMarketing Solutions.</p>
@@ -144,9 +159,9 @@
 
 
 
-            <div style="max-width: 1200px;" class="row   ">
+            <div style="max-width: 1200px;" class="row ">
 
-                <div style="color: rgb(121, 121, 110);" class="col-md-4 mt-5  font-text ">
+                <div style="color: rgb(121, 121, 110); " class="col-md-4 mt-5  font-text ">
                     <p class="pt-2 mb-3">
                         Our SEO services ensure your website ranks higher on search engines like Google, helping your
                         business attract more organic traffic. From keyword research and on-page optimization to link
@@ -191,7 +206,7 @@
 
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../image/about_1_1.webp">
+                            <img class="img-fluid" src="../image/about_1_1.webp">
                         </div>
                         <div class="col-md-8 ">
                             <div class="row px-2 py-2">
@@ -199,16 +214,18 @@
 
                                     <div class="row">
                                         <div style="display: flex; flex-direction: row;">
-                                            <img src="../image/shape-5.webp" alt="loading">
-                                            <div>
-                                                <p>circle div</p>
+                                            <img src="../image/shape-5.webp" alt="loading ">
+                                            <div class="mx-auto" style="justify-content: center;  align-items: center;">
+                                                <div class="circle1 font-text">
+                                                    Watch now
+                                                </div>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
                                 <div class="col-12 mt-3">
-                                    <img src="../image/about_1_2.webp" alt="loading">
+                                    <img class="img-fluid" src="../image/about_1_2.webp" alt="loading">
 
                                 </div>
                             </div>
@@ -284,22 +301,24 @@
         </div>
 
 
-        <div class="seo-service-heading  ">
+        <div class="seo-service-heading   "  style="height: 700px">
 
 
-            <div class="mt-5 pt-5">
+            <div  class="row">
+            <div class="mt-5 pt-5 col-md-6">
                 <p style="font-size: 18px; margin: 0px ;" class="font-text mx-3 mb-2 font-text">Our Services</p>
-                <p class="mx-3 font-text" style="font-size: 40px; font-weight: 700; margin: 0px;">
+                <p class="mx-3 font-text" style="font-size: 30px; font-weight: 700; margin: 0px;">
                     Boost your SEO ranking with</p>
                 <p class="mx-3 font-text" style="font-size: 50px; font-weight: bold;">
                     excellent effective services</p>
             </div>
-            <div class="mt-5 pt-5 px-5">
+            <div class="mt-5 pt-5 px-5 col-md-6">
 
                 <div class="circle font-text">
                     View All work
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <!-- footer -->
@@ -370,7 +389,7 @@
 
         </div>
 
-        <div class="mx-3 mt-4">
+        <div class="mx-3 mt-4 " style=" display: flex;  align-items: center; justify-content: center;">
 
             <img class="img-fluid " src="../image/project-image (1).webp" alt="loading">
 
@@ -433,21 +452,21 @@
             <div class="row row-1">
 
                 <div class="col-12 col-md-6 px-2  ">
-                    <div  class="articatl-inner-container">
-                        <img src="../image/blog-s.webp">
+                    <div class="articatl-inner-container">
+                        <img class="img-fluid" src="../image/blog-s.webp">
                         <p>Many of those products offer the</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-3 px-2">
-                    <div  class="articatl-inner-container">
+                    <div class="articatl-inner-container">
                         <img class="" src="../image/blog2.webp">
                         <p>Grow Your Business, Nurture Your Customers:</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-3 px-2">
-                    <div  class="articatl-inner-container">
+                    <div class="articatl-inner-container">
                         <img src="../image/b2.webp">
 
                         <p>Achieve Top Rankings and Drive Results</p>
@@ -504,7 +523,7 @@
             </div>
         </div>
     </footer>
-    <section>
+    <!-- <section>
         <div class="footer-bottom-last p-3  ">
             <div class="mx-5"> Copyright &copy; 2025 <span class="text-warning">Saor</span>All Rights Reserved.</div>
             <div class="mx-5"> <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> </div>
@@ -512,7 +531,7 @@
         <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
             &#8593;
         </div>
-    </section>
+    </section> -->
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

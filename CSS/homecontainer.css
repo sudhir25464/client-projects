@@ -4,6 +4,11 @@
 *{
     margin: 0px;padding: 0px;
 }
+
+/* .home-head-text p{
+    margin: 0px;
+
+} */
  .hero-img{
   
     z-index: auto;
@@ -46,6 +51,19 @@ font-style: normal;
     margin: 2px;
     
 }
+
+.circle1{
+    display: flex;
+    align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #ffcc00;
+        height: 140px;
+        width: 140px;
+        border: 0.5px solid black !important;
+        border-radius: 70px;
+    
+    }
 .info-sm-text{
 font-size: 22px;
 font-weight: 600;
